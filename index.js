@@ -10,7 +10,7 @@ const test = async () => {
   );
 
   const nf_jwt =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjIxNDkwMTc5NTYwMDAsImFwcF9tZXRhZGF0YSI6eyJhdXRob3JpemF0aW9uIjp7InJvbGVzIjpbImFkbWluIl19fX0.m7RC0H0NjZ23SKT4IdJpaWTMwTZxIG_rvw72nZEq-84";
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE4OTM0NTYwMDAsInN1YiI6ImI1YmUwMTk2LWNmNGMtNGRmZC04MTcyLTg4NDNkOGQ4ZmMyNSIsImFwcF9tZXRhZGF0YSI6eyJhdXRob3JpemF0aW9uIjp7InJvbGVzIjpbImFkbWluIl19fX0.MQmW0NwHrAIx3ACp8EJtjn8B1gGoQ54HR_yFukoPHG0";
   const cookieValues = {
     nf_jwt,
   };
