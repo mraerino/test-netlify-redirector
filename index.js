@@ -5,7 +5,7 @@ const test = async () => {
     "/admin/* /admin/:splat 200 Role=admin",
     {
       jwtSecret: "secret",
-      jwtRole: "app_metadata.authorization.roles",
+      jwtRoleClaim: "app_metadata.authorization.roles",
     }
   );
 
